@@ -1,0 +1,31 @@
+{
+  "name": "@whatwg-http-server/azure-functions",
+  "version": "0.1.0",
+  "description": "An universal way to implement HTTP server listeners, using WHATWG-similar standards. Translates your endpoint to many HTTP server implementations, like Node.js, Express.js, Azure Functions and more.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "dependencies": {
+    "@azure/functions": "^3.0.0",
+    "@whatwg-http-server/core": "^0.1.3",
+    "parse-multipart-data": "^1.2.1"
+  },
+  "scripts": {
+    "build": "npm run clean; tsc --project tsconfig.json",
+    "clean": "rm -rf dist; mkdir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openmetaweb/whatwg-http-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/openmetaweb/whatwg-http-server/issues"
+  },
+  "homepage": "https://github.com/openmetaweb/whatwg-http-server#readme"
+}

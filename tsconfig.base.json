@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "inlineSourceMap": true,
+    "noEmitOnError": true,
+    "removeComments": true,
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "lib": [
+      "ES2020"
+    ],
+    "target": "ES2020"
+  }
+}

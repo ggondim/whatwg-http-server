@@ -1,0 +1,30 @@
+{
+  "name": "whatwg-http-server",
+  "version": "1.0.0",
+  "description": "An universal way to implement HTTP server listeners, using WHATWG standards. Translates Fetch API types to-from many HTTP server implementations, like Node.js, Express.js, Azure Functions and more.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {
+    "@azure/functions": "^3.0.0",
+    "parse-multipart-data": "^1.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openmetaweb/whatwg-http-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/openmetaweb/whatwg-http-server/issues"
+  },
+  "homepage": "https://github.com/openmetaweb/whatwg-http-server#readme",
+  "devDependencies": {
+    "jsdoc-to-markdown": "^7.1.0"
+  }
+}

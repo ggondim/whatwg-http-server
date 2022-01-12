@@ -1,0 +1,42 @@
+{
+  "name": "@whatwg-http-server/core",
+  "version": "0.1.4",
+  "description": "An universal way to implement HTTP server listeners, using WHATWG-similar standards. Translates your endpoint to many HTTP server implementations, like Node.js, Express.js, Azure Functions and more.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "npm run clean; tsc",
+    "clean": "rm -rf dist; mkdir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openmetaweb/whatwg-http-server.git"
+  },
+  "keywords": [
+    "whatwg",
+    "fetch",
+    "http-server",
+    "node-http",
+    "express",
+    "expressjs",
+    "azure-functions",
+    "serverless"
+  ],
+  "author": {
+    "email": "gustavospgondim@gmail.com",
+    "name": "Gustavo Gondim",
+    "url": "https://github.com/ggondim"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/openmetaweb/whatwg-http-server/issues"
+  },
+  "homepage": "https://github.com/openmetaweb/whatwg-http-server#readme",
+  "dependencies": {
+    "ts-advanced-types": "^1.0.0"
+  }
+}
